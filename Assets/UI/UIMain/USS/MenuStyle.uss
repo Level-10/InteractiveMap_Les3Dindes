@@ -1,0 +1,42 @@
+.menu-button {
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(127, 127, 127, 0);
+    height: 100%;
+    width: 100%;
+    flex-grow: initial;
+    flex-shrink: 1;
+    justify-content: flex-start;
+    align-items: auto;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    transform-origin: center;
+    -unity-font: url("project://database/Assets/Imports/Fonts/Avenir%20Light.ttf?fileID=12800000&guid=d041a54c83f77cc42a217cf2a867f525&type=3#Avenir Light");
+    -unity-font-definition: none;
+    -unity-font-style: normal;
+    transition-duration: 0.2s;
+    align-self: auto;
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+}
+
+.menu-button:hover {
+    color: rgb(153, 255, 162);
+    font-size: 80px;
+    rotate: 0;
+    transition-duration: 0.3s;
+}
+
+.portrait {
+    height: 100%;
+    width: 100%;
+    align-items: stretch;
+    flex-grow: 1;
+    position: relative;
+    max-width: none;
+    max-height: none;
+    min-width: auto;
+    min-height: 100%;
+}

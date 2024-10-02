@@ -1,0 +1,114 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="Portrait" src="project://database/Assets/Resources/Portrait.uxml?fileID=9197481963319205126&amp;guid=bec73c7b9b0fe4f48a5403faeef76fad&amp;type=3#Portrait" />
+    <Style src="project://database/Assets/UI/UIMain/USS/MenuStyle.uss?fileID=7433441132597879392&amp;guid=0501a1034b07999468798f35fe66e20e&amp;type=3#MenuStyle" />
+    <ui:VisualElement style="flex-grow: 1; flex-direction: row;">
+        <ui:VisualElement name="Map" style="flex-grow: 1; top: 0; right: 0; bottom: 0; position: absolute; background-image: url(&quot;project://database/Assets/Imports/Map/C_Contours.JPG?fileID=2800000&amp;guid=d763717a910736e4ebbce7232260ec35&amp;type=3#C_Contours&quot;); -unity-background-scale-mode: scale-to-fit; left: 33%; visibility: visible; background-color: rgba(32, 32, 32, 0); -unity-background-image-tint-color: rgb(255, 255, 255); opacity: 1;">
+            <ui:VisualElement name="M_Abricotier" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Imports/Map/Abricotier.PNG?fileID=2800000&amp;guid=63de5a32ac5dab140841e142964a7421&amp;type=3#Abricotier&quot;); position: absolute; left: 0; top: 5%; right: 0; bottom: 5%; display: flex; visibility: hidden;" />
+            <ui:VisualElement name="M_Mediation" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Imports/Map/Mediation.PNG?fileID=2800000&amp;guid=1474839fa28087541961d78a4a93664c&amp;type=3#Mediation&quot;); position: absolute; left: 0; top: 5%; right: 0; bottom: 5%; display: flex; visibility: hidden;" />
+            <ui:VisualElement name="M_Chenes" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Imports/Map/Chenes.PNG?fileID=2800000&amp;guid=20050e674532eaf4d8faf9b6500557d2&amp;type=3#Chenes&quot;); position: absolute; left: 0; top: 5%; right: 0; bottom: 5%; display: flex; visibility: hidden;" />
+            <ui:VisualElement name="M_Vallon" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Imports/Map/Vallon.PNG?fileID=2800000&amp;guid=e885934d73a93cf43b3a6760a154cfa6&amp;type=3#Vallon&quot;); position: absolute; left: 0; top: 5%; right: 0; bottom: 5%; display: flex; visibility: hidden;" />
+            <ui:VisualElement name="M_PinParasol" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Imports/Map/PinParasol.PNG?fileID=2800000&amp;guid=77bec2173df768a40a5bf31f20079ec7&amp;type=3#PinParasol&quot;); position: absolute; left: 0; top: 5%; right: 0; bottom: 5%; display: flex; visibility: hidden;" />
+            <ui:VisualElement name="M_Hollywood" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Imports/Map/Hollywood.PNG?fileID=2800000&amp;guid=a41bff90bde4b1743b725dee99579fa3&amp;type=3#Hollywood&quot;); position: absolute; left: 0; top: 5%; right: 0; bottom: 5%; display: flex; visibility: hidden;" />
+            <ui:VisualElement name="M_Utilitaires" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Imports/Map/Batiments.PNG?fileID=2800000&amp;guid=1edf77d0b1dc1b14bb2d08fb54e45c9f&amp;type=3#Batiments&quot;); position: absolute; left: 0; top: 5%; right: 0; bottom: 5%; display: none; visibility: hidden; overflow: visible;">
+                <ui:VisualElement name="Chemins" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Imports/Map/Chemins.PNG?fileID=2800000&amp;guid=2a8e4da87209f6440b0a1e3259a1f467&amp;type=3#Chemins&quot;); position: absolute; left: 0; top: 0; right: 0; bottom: 0; visibility: visible;" />
+                <ui:VisualElement name="Fumier" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Imports/Map/Fumier.PNG?fileID=2800000&amp;guid=d412b5fa766c6b5488b1ac89f255c5e7&amp;type=3#Fumier&quot;); position: absolute; left: 0; top: 0; right: 0; bottom: 0; visibility: visible;" />
+                <ui:VisualElement name="Parking" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Imports/Map/Parking.PNG?fileID=2800000&amp;guid=9a22c762f9c80a84fa70b835a1d442fe&amp;type=3#Parking&quot;); position: absolute; left: 0; top: 0; right: 0; bottom: 0; visibility: visible;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="M_Parcs" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Imports/Map/Secteurs_Parcs.PNG?fileID=2800000&amp;guid=ec012d22487a7194e8a05be9fda6219e&amp;type=3#Secteurs_Parcs&quot;); position: absolute; left: 0; top: 5%; right: 0; bottom: 5%; display: flex; visibility: hidden;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="LeftSection" style="flex-grow: 1; width: 60%; height: 100%;">
+            <ui:VisualElement name="Menu" style="flex-grow: 1; background-color: rgba(56, 56, 56, 0.51); padding-right: 0; margin-right: 100px; margin-left: 100px; padding-top: 0; padding-bottom: 0; padding-left: 0; width: auto; align-items: center;">
+                <ui:VisualElement name="Logo" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Imports/Icons/Logo_Couleur.png?fileID=2800000&amp;guid=c3b8620023866584782527e789e6a582&amp;type=3#Logo_Couleur&quot;); height: 100%; width: 100%; margin-top: 5%; margin-right: 0; margin-bottom: 5%; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; align-self: stretch; justify-content: space-around; align-items: stretch; -unity-background-scale-mode: scale-to-fit;" />
+                <ui:Button text="Abricotier" parse-escape-sequences="true" display-tooltip-when-elided="true" name="B_Abricotier" class="menu-button" />
+                <ui:Button text="Médiation" parse-escape-sequences="true" display-tooltip-when-elided="true" name="B_Mediation" class="menu-button" />
+                <ui:Button text="Chenes" parse-escape-sequences="true" display-tooltip-when-elided="true" name="B_Chenes" class="menu-button" />
+                <ui:Button text="Vallon" parse-escape-sequences="true" display-tooltip-when-elided="true" name="B_Vallon" class="menu-button" style="white-space: normal;" />
+                <ui:Button text="Pin Parasol" parse-escape-sequences="true" display-tooltip-when-elided="true" name="B_PinParasol" class="menu-button" />
+                <ui:Button text="Hollywood" parse-escape-sequences="true" display-tooltip-when-elided="true" name="B_Hollywood" class="menu-button" />
+                <ui:Button text="Utilitaires" parse-escape-sequences="true" display-tooltip-when-elided="true" name="B_Utilitaires" class="menu-button" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="RightSection" style="flex-grow: 1; height: 100%; width: 100%;">
+            <ui:VisualElement name="Windows" style="flex-grow: 1; align-self: stretch; align-items: stretch; justify-content: space-around; position: relative; flex-wrap: nowrap; flex-direction: column; left: 0; top: 0; right: 0; bottom: 0;">
+                <ui:VisualElement name="W_Abricotier" style="flex-grow: 1; background-color: rgba(56, 56, 56, 0); border-left-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); align-items: stretch; justify-content: flex-start; align-self: stretch; flex-shrink: 1; flex-direction: column; height: auto; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 50px; padding-right: 50px; padding-bottom: 50px; padding-left: 50px; left: 0; top: 0; position: absolute; bottom: 0; right: 0; display: none;">
+                    <ui:ScrollView scroll-deceleration-rate="0,135" elasticity="0,1" mode="Vertical" style="width: auto; align-items: stretch; height: auto;">
+                        <ui:Instance template="Portrait" name="Portrait" class="portrait" style="flex-shrink: 1; flex-grow: 1; align-items: stretch; width: 100%; height: 100%; align-self: stretch;">
+                            <AttributeOverrides element-name="Name" text="Abricotier" />
+                        </ui:Instance>
+                        <ui:Instance template="Portrait" name="Portrait" class="portrait" style="flex-shrink: 1; flex-grow: 1; align-items: center; width: 100%; height: 100%;" />
+                        <ui:Instance template="Portrait" name="Portrait" class="portrait" style="flex-shrink: 1; flex-grow: 1; align-items: center; width: 100%; height: 100%;" />
+                        <ui:Instance template="Portrait" name="Portrait" class="portrait" style="flex-shrink: 1; flex-grow: 1; align-items: center; width: 100%; height: 100%;" />
+                        <ui:Instance template="Portrait" name="Portrait" class="portrait" style="flex-shrink: 1; flex-grow: 1; align-items: center; width: 100%; height: 100%;" />
+                    </ui:ScrollView>
+                </ui:VisualElement>
+                <ui:VisualElement name="W_Mediation" style="flex-grow: 1; background-color: rgba(56, 56, 56, 0); border-left-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); align-items: stretch; justify-content: flex-start; align-self: stretch; flex-shrink: 1; flex-direction: column; height: auto; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 50px; padding-right: 50px; padding-bottom: 50px; padding-left: 50px; left: 0; top: 0; position: absolute; bottom: 0; right: 0; display: none;">
+                    <ui:ScrollView scroll-deceleration-rate="0,135" elasticity="0,1" mode="Vertical" style="width: auto; align-items: stretch; height: auto;">
+                        <ui:Instance template="Portrait" name="Portrait" class="portrait" style="flex-shrink: 1; flex-grow: 1; align-items: stretch; width: 100%; height: 100%; align-self: stretch;">
+                            <AttributeOverrides element-name="Name" text="Batiments" />
+                        </ui:Instance>
+                        <ui:Instance template="Portrait" name="Portrait" class="portrait" style="flex-shrink: 1; flex-grow: 1; align-items: center; width: 100%; height: 100%;" />
+                        <ui:Instance template="Portrait" name="Portrait" class="portrait" style="flex-shrink: 1; flex-grow: 1; align-items: center; width: 100%; height: 100%;" />
+                        <ui:Instance template="Portrait" name="Portrait" class="portrait" style="flex-shrink: 1; flex-grow: 1; align-items: center; width: 100%; height: 100%;" />
+                        <ui:Instance template="Portrait" name="Portrait" class="portrait" style="flex-shrink: 1; flex-grow: 1; align-items: center; width: 100%; height: 100%;" />
+                    </ui:ScrollView>
+                </ui:VisualElement>
+                <ui:VisualElement name="W_Chenes" style="flex-grow: 1; background-color: rgba(56, 56, 56, 0); border-left-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); align-items: stretch; justify-content: flex-start; align-self: stretch; flex-shrink: 1; flex-direction: column; height: auto; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 50px; padding-right: 50px; padding-bottom: 50px; padding-left: 50px; position: absolute; left: 0; top: 0; right: 0; bottom: 0; display: none;">
+                    <ui:ScrollView scroll-deceleration-rate="0,135" elasticity="0,1" mode="Vertical" style="width: auto; align-items: stretch; height: auto;">
+                        <ui:Instance template="Portrait" name="Portrait" class="portrait" style="flex-shrink: 1; flex-grow: 1; align-items: stretch; width: 100%; height: 100%; align-self: stretch;">
+                            <AttributeOverrides element-name="Name" text="Chèvres" />
+                        </ui:Instance>
+                        <ui:Instance template="Portrait" name="Portrait" class="portrait" style="flex-shrink: 1; flex-grow: 1; align-items: center; width: 100%; height: 100%;" />
+                        <ui:Instance template="Portrait" name="Portrait" class="portrait" style="flex-shrink: 1; flex-grow: 1; align-items: center; width: 100%; height: 100%;" />
+                        <ui:Instance template="Portrait" name="Portrait" class="portrait" style="flex-shrink: 1; flex-grow: 1; align-items: center; width: 100%; height: 100%;" />
+                        <ui:Instance template="Portrait" name="Portrait" class="portrait" style="flex-shrink: 1; flex-grow: 1; align-items: center; width: 100%; height: 100%;" />
+                    </ui:ScrollView>
+                </ui:VisualElement>
+                <ui:VisualElement name="W_Vallon" style="flex-grow: 1; background-color: rgba(56, 56, 56, 0); border-left-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); align-items: stretch; justify-content: flex-start; align-self: stretch; flex-shrink: 1; flex-direction: column; height: -300px; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 50px; padding-right: 50px; padding-bottom: 50px; padding-left: 50px; left: 0; top: 0; right: 0; bottom: 0; width: auto; position: absolute; display: none;">
+                    <ui:ScrollView scroll-deceleration-rate="0,135" elasticity="0,1" mode="Vertical" focusable="true" style="width: auto; align-items: stretch; height: auto;">
+                        <ui:Instance template="Portrait" name="Portrait" class="portrait" style="flex-shrink: 1; flex-grow: 1; align-items: stretch; width: 100%; height: 100%; align-self: stretch; flex-basis: auto; flex-direction: column;">
+                            <AttributeOverrides element-name="Name" text="Moutmout" />
+                        </ui:Instance>
+                        <ui:Instance template="Portrait" name="Portrait" class="portrait" style="flex-shrink: 1; flex-grow: 1; align-items: center; width: 100%; height: 100%;" />
+                        <ui:Instance template="Portrait" name="Portrait" class="portrait" style="flex-shrink: 1; flex-grow: 1; align-items: center; width: 100%; height: 100%;" />
+                        <ui:Instance template="Portrait" name="Portrait" class="portrait" style="flex-shrink: 1; flex-grow: 1; align-items: center; width: 100%; height: 100%;" />
+                        <ui:Instance template="Portrait" name="Portrait" class="portrait" style="flex-shrink: 1; flex-grow: 1; align-items: center; width: 100%; height: 100%;" />
+                    </ui:ScrollView>
+                </ui:VisualElement>
+                <ui:VisualElement name="W_PinParasol" style="flex-grow: 1; background-color: rgba(56, 56, 56, 0); border-left-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); align-items: stretch; justify-content: flex-start; align-self: stretch; flex-shrink: 1; flex-direction: column; height: auto; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 50px; padding-right: 50px; padding-bottom: 50px; padding-left: 50px; left: 0; top: 0; position: absolute; bottom: 0; right: 0; display: none;">
+                    <ui:ScrollView scroll-deceleration-rate="0,135" elasticity="0,1" mode="Vertical" style="width: auto; align-items: stretch; height: auto;">
+                        <ui:Instance template="Portrait" name="Portrait" class="portrait" style="flex-shrink: 1; flex-grow: 1; align-items: stretch; width: 100%; height: 100%; align-self: stretch;">
+                            <AttributeOverrides element-name="Name" text="Vaches" />
+                        </ui:Instance>
+                        <ui:Instance template="Portrait" name="Portrait" class="portrait" style="flex-shrink: 1; flex-grow: 1; align-items: center; width: 100%; height: 100%;" />
+                        <ui:Instance template="Portrait" name="Portrait" class="portrait" style="flex-shrink: 1; flex-grow: 1; align-items: center; width: 100%; height: 100%;" />
+                        <ui:Instance template="Portrait" name="Portrait" class="portrait" style="flex-shrink: 1; flex-grow: 1; align-items: center; width: 100%; height: 100%;" />
+                        <ui:Instance template="Portrait" name="Portrait" class="portrait" style="flex-shrink: 1; flex-grow: 1; align-items: center; width: 100%; height: 100%;" />
+                    </ui:ScrollView>
+                </ui:VisualElement>
+                <ui:VisualElement name="W_Hollywood" style="flex-grow: 1; background-color: rgba(56, 56, 56, 0); border-left-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); align-items: stretch; justify-content: flex-start; align-self: stretch; flex-shrink: 1; flex-direction: column; height: auto; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 50px; padding-right: 50px; padding-bottom: 50px; padding-left: 50px; left: 0; top: 0; position: absolute; bottom: 0; right: 0; display: none;">
+                    <ui:ScrollView scroll-deceleration-rate="0,135" elasticity="0,1" mode="Vertical" style="width: auto; align-items: stretch; height: auto;">
+                        <ui:Instance template="Portrait" name="Portrait" class="portrait" style="flex-shrink: 1; flex-grow: 1; align-items: stretch; width: 100%; height: 100%; align-self: stretch;">
+                            <AttributeOverrides element-name="Name" text="Hollywood" />
+                        </ui:Instance>
+                        <ui:Instance template="Portrait" name="Portrait" class="portrait" style="flex-shrink: 1; flex-grow: 1; align-items: center; width: 100%; height: 100%;" />
+                        <ui:Instance template="Portrait" name="Portrait" class="portrait" style="flex-shrink: 1; flex-grow: 1; align-items: center; width: 100%; height: 100%;" />
+                        <ui:Instance template="Portrait" name="Portrait" class="portrait" style="flex-shrink: 1; flex-grow: 1; align-items: center; width: 100%; height: 100%;" />
+                        <ui:Instance template="Portrait" name="Portrait" class="portrait" style="flex-shrink: 1; flex-grow: 1; align-items: center; width: 100%; height: 100%;" />
+                    </ui:ScrollView>
+                </ui:VisualElement>
+                <ui:VisualElement name="W_Utilitaires" style="flex-grow: 1; background-color: rgba(56, 56, 56, 0); border-left-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); align-items: stretch; justify-content: flex-start; align-self: stretch; flex-shrink: 1; flex-direction: column; height: auto; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 50px; padding-right: 50px; padding-bottom: 50px; padding-left: 50px; left: 0; top: 0; position: absolute; bottom: 0; right: 0; display: none;">
+                    <ui:ScrollView scroll-deceleration-rate="0,135" elasticity="0,1" mode="Vertical" style="width: auto; align-items: stretch; height: auto;">
+                        <ui:Instance template="Portrait" name="Portrait" class="portrait" style="flex-shrink: 1; flex-grow: 1; align-items: stretch; width: 100%; height: 100%; align-self: stretch;">
+                            <AttributeOverrides element-name="Name" text="Utilitaires" />
+                        </ui:Instance>
+                        <ui:Instance template="Portrait" name="Portrait" class="portrait" style="flex-shrink: 1; flex-grow: 1; align-items: center; width: 100%; height: 100%;" />
+                        <ui:Instance template="Portrait" name="Portrait" class="portrait" style="flex-shrink: 1; flex-grow: 1; align-items: center; width: 100%; height: 100%;" />
+                        <ui:Instance template="Portrait" name="Portrait" class="portrait" style="flex-shrink: 1; flex-grow: 1; align-items: center; width: 100%; height: 100%;" />
+                        <ui:Instance template="Portrait" name="Portrait" class="portrait" style="flex-shrink: 1; flex-grow: 1; align-items: center; width: 100%; height: 100%;" />
+                    </ui:ScrollView>
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:Button text="X" parse-escape-sequences="true" display-tooltip-when-elided="true" name="B_Close" style="position: absolute; left: 1058px; top: 59px; right: 74px; bottom: 964px; width: 5%; height: 5%; font-size: 40px; border-left-color: rgba(149, 149, 149, 0); border-right-color: rgba(149, 149, 149, 0); border-top-color: rgba(149, 149, 149, 0); border-bottom-color: rgba(149, 149, 149, 0); background-color: rgba(188, 188, 188, 0); color: rgb(255, 255, 255);" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
